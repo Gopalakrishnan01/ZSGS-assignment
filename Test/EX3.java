@@ -23,7 +23,7 @@ public class EX3 {
                 else{
                     matrix[i][j]=arr[j]+matrix[i][j-1];
                 }
-                if(matrix[i][j]==0 && output< j){
+                if(matrix[i][j]==0 && output< (j-i)){
                     output=j;
                 }
 
